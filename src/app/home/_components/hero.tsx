@@ -6,7 +6,7 @@ import { PlayCircleIcon, PlayIcon } from "@heroicons/react/24/solid";
 
 function Hero() {
   return (
-    <div className="!flex flex-col lg:flex-row lg:h-[80vh] w-full lg:items-end px-10 max-w-screen-2xl mx-auto relative">
+    <div className="!flex flex-col lg:flex-row lg:h-[80vh] lg:max-h-[600px] w-full lg:items-end px-10 max-w-screen-2xl mx-auto relative">
       {/* hero texts */}
       <div className="lg:w-6/12 self-center">
         <div className="grid grid-cols-12 text-center lg:text-left">
