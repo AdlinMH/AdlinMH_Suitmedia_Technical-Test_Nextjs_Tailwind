@@ -1,11 +1,11 @@
 import "../styles/globals.css";
 
 import type { Metadata } from "next";
-import { Layout } from "@/components";
+import { Layout } from "@/components/layout";
 import { myFont } from '@/styles/local-font'
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwi nd Course Landing Page",
+  title: "NextJS Tailwind Course Landing Page",
   description:
     "Introducing Tailwind Course Landing Page, a versatile and engaging landing page template designed using Tailwind CSS and Material Tailwind.",
 };

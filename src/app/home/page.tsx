@@ -1,7 +1,8 @@
 // components
-import Image from "next/image"
+// import Image from "next/image"
 
-import { Navbar, Footer } from "@/components";
+// import { Navbar, /* Footer */ } from "@/components/";
+import Navbar from "@/components/navbar";
 
 // sections
 import Hero from "./_components/hero";
