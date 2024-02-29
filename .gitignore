@@ -132,3 +132,4 @@ dist
 
 # others
 template-sample/
+.DS_Store
