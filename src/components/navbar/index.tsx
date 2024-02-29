@@ -89,6 +89,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* burger buttons */}
           <IconButton
+            id="burger-button-icon"
             variant="text"
             color="gray"
             onClick={() => handleOpen('menu')}
@@ -114,6 +115,7 @@ export function Navbar() {
 
           {/* search buttons */}
           <IconButton
+            id="magify-glass-button-icon"
             variant="text"
             color="gray"
             onClick={() => handleOpen('search')}
