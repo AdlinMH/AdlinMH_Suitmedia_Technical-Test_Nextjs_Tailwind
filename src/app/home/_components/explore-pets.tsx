@@ -80,7 +80,7 @@ export function ExplorePets() {
      {/* card items */}
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-24 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-14">
         {PETS.map((props, idx) => (
-          <ProductItemCard key={idx} {...props} />
+          <ProductItemCard key={`product_item_${idx}_${props.title}`} {...props} />
         ))}
       </div>
     </section>
