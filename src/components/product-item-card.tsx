@@ -26,7 +26,7 @@ export function CourseCard({ img, tag, title, label }: ProductItemCardProps) {
           href="#"
           className="text-blue-gray-900 transition-colors hover:text-gray-900"
         >
-          <Typography variant="h5" className="mb-2 normal-case">
+          <Typography className="mb-2 normal-case font-bold text-sm">
             {title}
           </Typography>
         </a>
@@ -34,10 +34,10 @@ export function CourseCard({ img, tag, title, label }: ProductItemCardProps) {
           {Object.entries(tag).map((t, i) => (
             <div className="flex items-center justify-evenly">
               {i !== 0 && (<div className="mb-2 rounded-full bg-gray-800 h-1 w-1 mx-2 mr-3" />)}
-              <Typography variant="small" color="blue" className="mb-2 font-normal text-gray-500" >
+              <Typography variant="small" color="blue" className="mb-2 font-normal text-gray-700" >
                 {t[0]}:
               </Typography>
-              <Typography variant="small" color="blue" className="mb-2 text-gray-500 font-semibold ml-1">
+              <Typography variant="small" color="blue" className="mb-2 text-gray-700 font-semibold ml-1">
                 {t[1]}
               </Typography>
             </div>

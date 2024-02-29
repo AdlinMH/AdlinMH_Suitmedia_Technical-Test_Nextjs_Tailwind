@@ -417,7 +417,7 @@ export default {
         },
         gray: {
           border: "border border-gray-500",
-          color: "text-gray-500",
+          color: "text-gray-600",
           hover: "hover:opacity-75",
           focus: "focus:ring focus:ring-gray-200",
           active: "active:opacity-[0.85]",
@@ -559,7 +559,7 @@ export default {
           active: "active:bg-blue-gray-500/30",
         },
         gray: {
-          color: "text-gray-500",
+          color: "text-gray-600",
           hover: "hover:bg-gray-500/10",
           active: "active:bg-gray-500/30",
         },

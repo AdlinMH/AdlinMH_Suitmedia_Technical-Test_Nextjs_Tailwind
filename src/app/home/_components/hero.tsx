@@ -57,7 +57,7 @@ function Hero() {
         <Image
           width={1200}
           height={1200}
-          src="/image/talent.png"
+          src="/image/talent.svg"
           alt="hero"
           className="w-full object-cover"
         />

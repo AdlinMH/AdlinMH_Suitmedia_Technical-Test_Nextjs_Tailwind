@@ -63,7 +63,7 @@ export function ExplorePets() {
         <div className="flex flex-col items-center justify-start">
           <Typography
             variant="lead"
-            className="mt-2 w-full !text-gray-500 text-left"
+            className="mt-2 w-full !text-gray-700 text-left"
           >
             Whats new?
           </Typography>

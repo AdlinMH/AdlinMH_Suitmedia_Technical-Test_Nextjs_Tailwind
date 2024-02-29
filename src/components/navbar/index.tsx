@@ -138,13 +138,13 @@ export function Navbar() {
           {/* nav actions :: such as login button, etc */}
           <div className="hidden items-center justify-evenly gap-4 lg:flex lg:min-w-[50%]">
             {/* search input */}
-            <Input label="Search something here!" color="gray" className="w-full !rounded-full bg-white" crossOrigin={undefined} />
+            <Input id="search-input-lg" label="" placeholder="Search something here!" color="gray" className="!rounded-full shadow-md shadow-primary-500/20 hover:shadow-lg hover:shadow-primary-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none bg-white" crossOrigin={undefined} aria-labelledby="search something" />
 
             {/* join button */}
-            <Button fullWidth className="max-w-[200px]">Join the community</Button>
+            <Button id="join-button-lg" fullWidth className="max-w-[200px]">Join the community</Button>
 
             {/* language select */}
-            <NavbarSelectCountry />
+            <NavbarSelectCountry id="select-country-lg" />
           </div>
         </div>
 
@@ -163,14 +163,11 @@ export function Navbar() {
 
               {/* nav actions: such as login buttons, etc */}
               <div className="mt-6 mb-4 flex flex-col items-start gap-4">
-                {/* search input */}
-                {/* <Input label="Search something here!" color="gray" className="!rounded-full" crossOrigin={undefined} /> */}
-
                 {/* join button */}
-                <Button>Join the community</Button>
+                <Button id="join-button">Join the community</Button>
 
                 {/* language select */}
-                <NavbarSelectCountry />
+                <NavbarSelectCountry id="select-country" />
               </div>
             </div>
           )}
@@ -180,7 +177,7 @@ export function Navbar() {
               {/* nav actions: such as login buttons, etc */}
               <div className="mt-6 mb-4 flex flex-col items-start gap-4">
                 {/* search input */}
-                <Input label="Search something here!" color="gray" className="!rounded-full" crossOrigin={undefined} />
+                <Input id="search-input" label="" placeholder="Search something here!" color="gray" className="!rounded-full shadow-md shadow-primary-500/20 hover:shadow-lg hover:shadow-primary-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none bg-white" crossOrigin={undefined} aria-labelledby="search something" />
               </div>
             </div>
           )}

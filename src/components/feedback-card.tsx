@@ -26,7 +26,7 @@ export function FeedbackCard({ img, feedback, client, title }: FeedbackCardProps
         </Typography>
         <Typography
           variant="paragraph"
-          className="mb-6 font-normal text-gray-500"
+          className="mb-6 font-normal text-gray-700"
         >
           &quot;{feedback}&quot;
         </Typography>

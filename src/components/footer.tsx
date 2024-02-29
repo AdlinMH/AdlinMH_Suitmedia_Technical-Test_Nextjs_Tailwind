@@ -46,7 +46,7 @@ export function Footer() {
             <Typography variant="h6" className="mb-3 text-left">
               Subscribe
             </Typography>
-            <Typography className="!text-gray-500 font-normal mb-4 text-base">
+            <Typography className="!text-gray-700 font-normal mb-4 text-base">
               Get access to subscriber exclusive deals and be the first who gets
               informed about fresh sales.
             </Typography>
@@ -57,7 +57,7 @@ export function Footer() {
               <div className="w-full">
                 {/* @ts-ignore */}
                 <Input label="Email" color="gray" />
-                <Typography className="font-medium mt-3 !text-sm !text-gray-500 text-left">
+                <Typography className="font-medium mt-3 !text-sm !text-gray-700 text-left">
                   I agree the{" "}
                   <a
                     href="#"
