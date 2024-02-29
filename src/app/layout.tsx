@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import { Layout, FixedPlugin } from "@/components";
+import { Layout } from "@/components";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -15,11 +15,7 @@ export const metadata: Metadata = {
     "Introducing Tailwind Course Landing Page, a versatile and engaging landing page template designed using Tailwind CSS and Material Tailwind.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
@@ -30,10 +26,11 @@ export default function RootLayout({
         ></script>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
+
       <body className={roboto.className}>
         <Layout>
           {children}
-          <FixedPlugin />
+          {/* <FixedPlugin /> */}
         </Layout>
       </body>
     </html>
