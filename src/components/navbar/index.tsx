@@ -36,6 +36,11 @@ interface NavItemProps {
   href?: string;
 }
 
+interface OpenMenuT {
+  open: boolean,
+  type: '' | 'menu' | 'search'
+}
+
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
@@ -50,11 +55,6 @@ function NavItem({ children, href }: NavItemProps) {
       </Typography>
     </li>
   );
-}
-
-type OpenMenuT = {
-  open: boolean,
-  type: '' | 'menu' | 'search'
 }
 
 export function Navbar() {

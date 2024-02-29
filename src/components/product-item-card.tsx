@@ -9,7 +9,7 @@ interface ProductItemCardProps {
   label: string;
 }
 
-export function CourseCard({ img, tag, title, label }: ProductItemCardProps) {
+export function ProductItemCard({ img, tag, title, label }: ProductItemCardProps) {
   return (
     <Card className="border">
       <CardHeader className="h-64">
@@ -51,4 +51,4 @@ export function CourseCard({ img, tag, title, label }: ProductItemCardProps) {
   );
 }
 
-export default CourseCard;
+export default ProductItemCard;
