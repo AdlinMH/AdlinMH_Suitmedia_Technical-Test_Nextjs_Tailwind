@@ -14,7 +14,7 @@ export function NavbarSelectCountry() {
         // className="w-20 !min-w-[50px]"
         // style={{ maxWidth: 50 }}
         containerProps={{
-          className: "w-20 !min-w-[100px]",
+          className: "w-20 !min-w-[100px] !max-w-[100px]",
         }}
       >
         <Option value="VND">{getUnicodeFlagIcon('US')} VND</Option>
