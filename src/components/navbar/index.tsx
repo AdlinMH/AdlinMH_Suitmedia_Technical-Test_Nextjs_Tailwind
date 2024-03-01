@@ -14,8 +14,10 @@ import {
 } from "@heroicons/react/24/solid";
 import Image from "next/image"
 
-import NavbarSelectCountry from "./select-country";
+import NavbarSelectCountry from "./select-country"
+
 import Decor1 from "@/../public/image/decoration1.svg"
+import LogoMonito from '@/../public/logos/logo-monito.svg'
 
 const NAV_MENU = [
   {
@@ -108,7 +110,7 @@ export function Navbar() {
             <Image
               width={100}
               height={100}
-              src={'./logos/logo-monito.svg'}
+              src={LogoMonito}
               alt={'Monito'}
               className="h-full w-full object-cover scale-[1.1]"
             />

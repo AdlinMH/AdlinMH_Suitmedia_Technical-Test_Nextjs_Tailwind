@@ -26,6 +26,17 @@ const config: Config = withMT({
       fontFamily: {
         sans: ['var(--font-gilroy)'],
       },
+
+      animation: {
+        fade: 'fadeOut 1.5s ease-in-out',
+      },
+
+      keyframes: (_theme: (arg0: string) => any) => ({
+        fadeOut: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      }),
     },
   },
   plugins: [],

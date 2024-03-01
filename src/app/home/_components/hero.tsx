@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Button, Typography, Card } from "@material-tailwind/react";
 import { PlayCircleIcon } from "@heroicons/react/24/solid";
 
-import TalentIlustration from "@/../public/image/talent.svg"
+import TalentIlustration from "@/../public/image/talent.png"
 import Decor2 from "@/../public/image/decoration2.svg"
 import Decor3 from "@/../public/image/decoration3.svg"
 
@@ -14,7 +14,7 @@ function Hero() {
       {/* hero texts */}
       <div className="lg:w-6/12 self-center">
         <div className="grid grid-cols-12 text-center lg:text-left">
-          <Card className="col-span-full bg-transparent py-10 p-8 shadow-none relative">
+          <Card className="col-span-full bg-transparent py-10 p-8 shadow-none relative animate-fade">
             <Typography
               variant="h1"
               // color="primary"
@@ -63,7 +63,7 @@ function Hero() {
           // height={550}
           src={TalentIlustration}
           alt="hero"
-          className="w-full object-cover"
+          className="w-full object-cover animate-fade"
         />
       </div>
 
