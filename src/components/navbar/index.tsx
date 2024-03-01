@@ -15,6 +15,7 @@ import {
 import Image from "next/image"
 
 import NavbarSelectCountry from "./select-country";
+import Decor1 from "@/../public/image/decoration1.svg"
 
 const NAV_MENU = [
   {
@@ -187,9 +188,9 @@ export function Navbar() {
       </MTNavbar>
 
       <Image
-        width={700}
-        height={700}
-        src="/image/decoration1.svg"
+        // width={700}
+        // height={700}
+        src={Decor1}
         alt=""
         // className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
         className="absolute -top-[4em] lg:-left-[8em]"
