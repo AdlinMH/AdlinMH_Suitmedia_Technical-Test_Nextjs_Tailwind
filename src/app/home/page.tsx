@@ -1,13 +1,14 @@
 // components
 // import Image from "next/image"
 
-import React from "react";
-import { Navbar, /* Footer */ } from "@/components/";
-import { Suspense } from "react";
+import React from "react"
+import { Navbar, /* Footer */ } from "@/components/"
+import { Suspense } from "react"
 // import Navbar from "@/components/navbar";
 
 // sections
-import Hero from "./_components/hero";
+import Hero from "./_components/hero"
+// import Banner from "./_components/banner"
 // import OutImpressiveStats from "./out-impressive-stats";
 // import CoursesCategories from "./courses-categories";
 // import ExplorePets from "./_components/explore-pets";
@@ -17,6 +18,7 @@ import Hero from "./_components/hero";
 // import TrustedCompany from "./trusted-companies";
 
 const ExplorePets = React.lazy(() => import("./_components/explore-pets"))
+// const Banner = React.lazy(() => import("./_components/banner"))
 
 export default function Campaign() {
   return (
@@ -30,6 +32,10 @@ export default function Campaign() {
       <Suspense fallback={<span>Loading...</span>}>
         <ExplorePets />
       </Suspense>
+
+      {/* <Suspense fallback={<span>Loading...</span>}> */}
+      {/* <Banner /> */}
+      {/* </Suspense> */}
       {/* <Testimonial /> */}
       {/* <Events /> */}
       {/* <StudentsFeedback /> */}
