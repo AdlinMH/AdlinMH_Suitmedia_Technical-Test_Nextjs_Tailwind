@@ -1,6 +1,6 @@
 # Suitmedia Technical-Test with Nextjs & Tailwind
 
-Project Demo can be access in [here](https://creative-tim.com/product/nextjs-tailwind-course-landing-page)
+Project Demo can be access in [here](https://adlin-mh-suitmedia.vercel.app/home)
 
 ![Front Demo Image](https://github.com/AdlinMH/AdlinMH_Suitmedia_Technical-Test_Nextjs_Tailwind/blob/main/quick-peek.png?raw=true)
 
