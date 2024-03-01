@@ -8,7 +8,7 @@ import { PlayCircleIcon } from "@heroicons/react/24/solid";
 
 function Banner() {
   return (
-    <div className="w-full relative container mx-auto mb-24 mt-16 text-center flex justify-end items-center">
+    <div className="w-full relative container mx-auto mb-16 mt-16 text-center flex justify-end items-center">
       <Image
         // width={1200}
         // height={400}

@@ -63,19 +63,19 @@ const PRODUCTS = [
   },
 ];
 
-export function ExplorePets() {
+export function ExploreProducts() {
   return (
     <section className="px-8 mt-8">
       {/* titles */}
       <div className="container mx-auto mb-24 text-center flex justify-between items-center">
-        <div className="flex flex-col items-center justify-start">
+        <div className="flex flex-col items-start justify-start">
           <Typography
             variant="lead"
             className="mt-2 w-full !text-gray-700 text-left"
           >
             Hard to choose right products for your pets?
           </Typography>
-          <Typography variant="h3">
+          <Typography variant="h3" className="text-left">
             Our Products
           </Typography>
         </div>
@@ -95,4 +95,4 @@ export function ExplorePets() {
   );
 }
 
-export default ExplorePets;
+export default ExploreProducts;

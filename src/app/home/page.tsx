@@ -8,7 +8,7 @@ import { Suspense } from "react"
 
 // sections
 import Hero from "./_components/hero"
-// import Banner from "./_components/banner"
+import Banner from "./_components/banner"
 // import OutImpressiveStats from "./out-impressive-stats";
 // import CoursesCategories from "./courses-categories";
 // import ExplorePets from "./_components/explore-pets";
@@ -34,13 +34,16 @@ export default function Campaign() {
         <ExplorePets />
       </Suspense>
 
+      <div className="hidden lg:flex">
+        <Banner />
+      </div>
 
       <Suspense fallback={<span>Loading...</span>}>
         <ExploreProducts />
       </Suspense>
 
       {/* <Suspense fallback={<span>Loading...</span>}> */}
-      {/* <Banner /> */}
+
       {/* </Suspense> */}
       {/* <Testimonial /> */}
       {/* <Events /> */}
