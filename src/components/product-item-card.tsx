@@ -1,14 +1,17 @@
 import { Typography, Card, CardBody, CardHeader, Button } from "@material-tailwind/react";
 import Image from "next/image";
 
+import GiftSvg from '@/../public/image/gift.svg'
+
 interface ProductItemCardProps {
   img: string;
   tag: Record<string, string>;
   title: string;
   label: string;
+  promo?: string;
 }
 
-export function ProductItemCard({ img, tag, title, label }: ProductItemCardProps) {
+export function ProductItemCard({ img, tag, title, label, promo }: ProductItemCardProps) {
   return (
     <Card className="border">
       <CardHeader className="h-64">
@@ -45,6 +48,22 @@ export function ProductItemCard({ img, tag, title, label }: ProductItemCardProps
         <Typography color="black" className="mb- font-semibold ml-1" >
           {label}
         </Typography>
+
+        {!!promo && (
+          <div className="flex bg-secondary-500 p-1 rounded-md mt-2">
+            <Image
+              // width={768}
+              // height={768}
+              src={GiftSvg}
+              className="w-6 h-6"
+              alt={""}
+            />
+
+            <Typography color="black" className="mb- font-semibold ml-1" >
+              {promo}
+            </Typography>
+          </div>
+        )}
       </CardBody>
     </Card>
   );

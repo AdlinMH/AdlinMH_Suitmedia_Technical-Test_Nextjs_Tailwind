@@ -22,6 +22,18 @@ const config: Config = withMT({
           800: "#003459",
           900: "#003459",
         },
+        secondary: {
+          50: "#FCEED5",
+          100: "#FCEED5",
+          200: "#FCEED5",
+          300: "#FCEED5",
+          400: "#FCEED5",
+          500: "#FCEED5",
+          600: "#FCEED5",
+          700: "#FCEED5",
+          800: "#FCEED5",
+          900: "#FCEED5",
+        }
       },
       fontFamily: {
         sans: ['var(--font-gilroy)'],

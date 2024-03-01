@@ -18,6 +18,7 @@ import Hero from "./_components/hero"
 // import TrustedCompany from "./trusted-companies";
 
 const ExplorePets = React.lazy(() => import("./_components/explore-pets"))
+const ExploreProducts = React.lazy(() => import("./_components/explore-products"))
 // const Banner = React.lazy(() => import("./_components/banner"))
 
 export default function Campaign() {
@@ -31,6 +32,11 @@ export default function Campaign() {
       {/* <CoursesCategories /> */}
       <Suspense fallback={<span>Loading...</span>}>
         <ExplorePets />
+      </Suspense>
+
+
+      <Suspense fallback={<span>Loading...</span>}>
+        <ExploreProducts />
       </Suspense>
 
       {/* <Suspense fallback={<span>Loading...</span>}> */}
