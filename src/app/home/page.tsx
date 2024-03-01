@@ -2,7 +2,7 @@
 // import Image from "next/image"
 
 import React from "react"
-import { Navbar, /* Footer */ } from "@/components/"
+import { Navbar, Footer } from "@/components"
 import { Suspense } from "react"
 // import Navbar from "@/components/navbar";
 
@@ -49,7 +49,7 @@ export default function Campaign() {
       {/* <Events /> */}
       {/* <StudentsFeedback /> */}
       {/* <TrustedCompany /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
