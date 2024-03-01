@@ -14,18 +14,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        {/* <script
-          defer
-          data-site="YOUR_DOMAIN_HERE"
-          src="https://api.nepcha.com/js/nepcha-analytics.js"
-        ></script> */}
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
 
       <body className={myFont.className}>
         <Layout>
           {children}
-          {/* <FixedPlugin /> */}
         </Layout>
       </body>
     </html>

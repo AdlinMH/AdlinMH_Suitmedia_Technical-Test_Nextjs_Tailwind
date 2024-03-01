@@ -1,11 +1,4 @@
 import localFont from 'next/font/local'
-// import { Roboto } from "next/font/google";
-
-// export const roboto = Roboto({
-//   subsets: ["latin"],
-//   weight: ["300", "400", "500", "700", "900"],
-//   display: "swap",
-// });
 
 export const myFont = localFont({
   src: [
