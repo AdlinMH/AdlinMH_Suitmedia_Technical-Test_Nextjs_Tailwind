@@ -1,7 +1,6 @@
 import { Typography, Card, CardBody, CardHeader, Button } from "@material-tailwind/react";
 import Image from "next/image";
 
-
 interface ProductItemCardProps {
   img: string;
   tag: Record<string, string>;

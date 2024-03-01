@@ -4,6 +4,10 @@ import Image from "next/image";
 import { Button, Typography, Card } from "@material-tailwind/react";
 import { PlayCircleIcon } from "@heroicons/react/24/solid";
 
+import TalentIlustration from "@/../public/image/talent.svg"
+import Decor2 from "@/../public/image/decoration2.svg"
+import Decor3 from "@/../public/image/decoration3.svg"
+
 function Hero() {
   return (
     <div className="!flex flex-col lg:flex-row lg:h-[80vh] lg:max-h-[600px] lg:min-h-[450px] w-full lg:items-end px-10 max-w-screen-2xl mx-auto relative">
@@ -41,9 +45,9 @@ function Hero() {
             </div>
 
             <Image
-              width={80}
-              height={80}
-              src="/image/decoration3.svg"
+              // width={80}
+              // height={80}
+              src={Decor3}
               alt=""
               // className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
               className="absolute -ml-3 -mt-2 -z-1 sm:w-[3em] md:w-auto"
@@ -55,18 +59,18 @@ function Hero() {
       {/* talent illustration */}
       <div className="lg:w-8/12">
         <Image
-          width={1200}
-          height={1200}
-          src="/image/talent.svg"
+          // width={550}
+          // height={550}
+          src={TalentIlustration}
           alt="hero"
           className="w-full object-cover"
         />
       </div>
 
       <Image
-        width={490}
-        height={490}
-        src="/image/decoration2.svg"
+        // width={490}
+        // height={490}
+        src={Decor2}
         alt=""
         // className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
         className="absolute hidden lg:flex"
